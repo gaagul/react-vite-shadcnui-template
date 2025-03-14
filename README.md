@@ -1,12 +1,73 @@
-# React + Vite
+# React Vite ShadCN UI Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A starter template for building modern React applications with Vite, ShadCN UI, and other essential tools.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡ **Vite** - Fast development and optimized production builds.
+- 🎨 **ShadCN UI** - Beautiful, accessible UI components.
+- 🏗 **Tailwind CSS** - Utility-first CSS framework for styling.
+- ⚛ **React** - Modern React setup with hooks and best practices.
+- ✨ **ESLint & Prettier** - Code consistency and formatting.
+- 🎨 **Tailwind CSS** - Utility-first CSS framework for rapid UI development.
+- ❌ **No TypeScript** - Pure JavaScript setup for simplicity.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone the Repository
+```sh
+git clone git@github.com:gaagul/react-vite-shadcnui-template.git
+cd react-vite-shadcnui-template
+```
+
+### 2. Install Dependencies
+Using Yarn:
+```sh
+yarn install
+```
+Or using npm:
+```sh
+npm install
+```
+
+### 3. Start the Development Server
+```sh
+yarn dev
+```
+
+The application will be available at `http://localhost:5173` by default.
+
+## Folder Structure
+```
+react-vite-shadcnui-template/
+│── src/
+│   ├── components/   # Reusable UI components
+│   ├── pages/        # Application pages
+│   ├── hooks/        # Custom hooks
+│   ├── lib/          # Utility functions and configurations
+│── public/           # Static assets
+│── index.html        # Main HTML file
+│── vite.config.js    # Vite configuration
+│── tailwind.config.js # Tailwind CSS configuration
+│── .eslintrc.js      # ESLint configuration
+│── .prettierrc       # Prettier configuration
+```
+
+## Building for Production
+To build the project for production:
+```sh
+yarn build
+```
+
+## Deployment
+You can deploy the built project using services like **Vercel**, **Netlify**, or **GitHub Pages**.
+
+## Contributing
+Feel free to submit issues and pull requests to improve this template!
+
+## License
+This project is licensed under the **MIT License**.
+
+---
+Happy coding! 🚀
+
